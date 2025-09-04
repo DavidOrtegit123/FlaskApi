@@ -31,6 +31,7 @@ jobs:
           username: davidortegit123
           password: ${{ secrets.GHCR_TOKEN }}
 
+          
       # 4️⃣ Construir y subir imagen
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
