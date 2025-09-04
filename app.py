@@ -7,7 +7,7 @@ next_id = 1  # simple auto-increment for IDs
 
 @app.route("/", methods=["GET"])
 def index():
-    return jsonify({"hola": "todo funciona"}), 200
+    return jsonify({"hola": "todo funciona en github"}), 200
 
 @app.route("/news", methods=["GET"])
 def list_news():
