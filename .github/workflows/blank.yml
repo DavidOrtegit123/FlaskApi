@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REGISTRY: ghcr.io
-      IMAGE: ghcr.io/DavidOrtegi123/tec-actions-test  # reemplaza con tu usuario
+      IMAGE: ghcr.io/davidortegi123/tec-actions-test  # reemplaza con tu usuario
 
     steps:
       # 1️⃣ Obtener tu código
